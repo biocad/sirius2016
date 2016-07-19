@@ -5,7 +5,7 @@
 - Classification
 - Euristics
 - Multillignment
-- HMMc
+- HMM
 
 Splitting
 ------------------------
