@@ -62,12 +62,12 @@ def main():
                     score[int(i[9])] += 1.5
         print(score)
         if l > h:
-            file_out = open(os.path.join(tmp.out_dir, 'lama.fasta'),'a')
+            file_out = open(os.path.join(tmp.out_dir, 'lama.csv'),'a')
             file_out.write(record)
             file_out.close()
         else:
             file_name = score.index(max(score))
-            file_name = 'human_' + str(file_name) + '.fasta'
+            file_name = 'human_' + str(file_name) + '.csv'
             file_out = open(os.path.join(tmp.out_dir, file_name),'a')
             file_out.write(record)
             file_out.close()
